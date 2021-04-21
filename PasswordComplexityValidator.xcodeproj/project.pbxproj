@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B4ED66262FFC3100F20860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4ED65262FFC3100F20860 /* AppDelegate.swift */; };
+		A1B4ED68262FFC3100F20860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4ED67262FFC3100F20860 /* SceneDelegate.swift */; };
+		A1B4ED6A262FFC3100F20860 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4ED69262FFC3100F20860 /* ResetPasswordViewController.swift */; };
+		A1B4ED6D262FFC3100F20860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B4ED6B262FFC3100F20860 /* Main.storyboard */; };
+		A1B4ED6F262FFC3300F20860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B4ED6E262FFC3300F20860 /* Assets.xcassets */; };
+		A1B4ED72262FFC3300F20860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B4ED70262FFC3300F20860 /* LaunchScreen.storyboard */; };
+		A1B4ED7D262FFC3300F20860 /* PasswordComplexityValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4ED7C262FFC3300F20860 /* PasswordComplexityValidatorTests.swift */; };
+		A1B4ED88262FFC3300F20860 /* PasswordComplexityValidatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4ED87262FFC3300F20860 /* PasswordComplexityValidatorUITests.swift */; };
+		A1B4ED9C263000A300F20860 /* NewPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4ED9B263000A300F20860 /* NewPasswordValidator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B4ED79262FFC3300F20860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B4ED5A262FFC3100F20860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B4ED61262FFC3100F20860;
+			remoteInfo = PasswordComplexityValidator;
+		};
+		A1B4ED84262FFC3300F20860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B4ED5A262FFC3100F20860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B4ED61262FFC3100F20860;
+			remoteInfo = PasswordComplexityValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1B4ED62262FFC3100F20860 /* PasswordComplexityValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordComplexityValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B4ED65262FFC3100F20860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1B4ED67262FFC3100F20860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1B4ED69262FFC3100F20860 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		A1B4ED6C262FFC3100F20860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1B4ED6E262FFC3300F20860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B4ED71262FFC3300F20860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1B4ED73262FFC3300F20860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B4ED78262FFC3300F20860 /* PasswordComplexityValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordComplexityValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B4ED7C262FFC3300F20860 /* PasswordComplexityValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordComplexityValidatorTests.swift; sourceTree = "<group>"; };
+		A1B4ED7E262FFC3300F20860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B4ED83262FFC3300F20860 /* PasswordComplexityValidatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordComplexityValidatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B4ED87262FFC3300F20860 /* PasswordComplexityValidatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordComplexityValidatorUITests.swift; sourceTree = "<group>"; };
+		A1B4ED89262FFC3300F20860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B4ED9B263000A300F20860 /* NewPasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordValidator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B4ED5F262FFC3100F20860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B4ED75262FFC3300F20860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B4ED80262FFC3300F20860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B4ED59262FFC3100F20860 = {
+			isa = PBXGroup;
+			children = (
+				A1B4ED64262FFC3100F20860 /* PasswordComplexityValidator */,
+				A1B4ED7B262FFC3300F20860 /* PasswordComplexityValidatorTests */,
+				A1B4ED86262FFC3300F20860 /* PasswordComplexityValidatorUITests */,
+				A1B4ED63262FFC3100F20860 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B4ED63262FFC3100F20860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4ED62262FFC3100F20860 /* PasswordComplexityValidator.app */,
+				A1B4ED78262FFC3300F20860 /* PasswordComplexityValidatorTests.xctest */,
+				A1B4ED83262FFC3300F20860 /* PasswordComplexityValidatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B4ED64262FFC3100F20860 /* PasswordComplexityValidator */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4ED65262FFC3100F20860 /* AppDelegate.swift */,
+				A1B4ED6E262FFC3300F20860 /* Assets.xcassets */,
+				A1B4ED73262FFC3300F20860 /* Info.plist */,
+				A1B4ED9B263000A300F20860 /* NewPasswordValidator.swift */,
+				A1B4ED70262FFC3300F20860 /* LaunchScreen.storyboard */,
+				A1B4ED6B262FFC3100F20860 /* Main.storyboard */,
+				A1B4ED69262FFC3100F20860 /* ResetPasswordViewController.swift */,
+				A1B4ED67262FFC3100F20860 /* SceneDelegate.swift */,
+			);
+			path = PasswordComplexityValidator;
+			sourceTree = "<group>";
+		};
+		A1B4ED7B262FFC3300F20860 /* PasswordComplexityValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4ED7C262FFC3300F20860 /* PasswordComplexityValidatorTests.swift */,
+				A1B4ED7E262FFC3300F20860 /* Info.plist */,
+			);
+			path = PasswordComplexityValidatorTests;
+			sourceTree = "<group>";
+		};
+		A1B4ED86262FFC3300F20860 /* PasswordComplexityValidatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B4ED87262FFC3300F20860 /* PasswordComplexityValidatorUITests.swift */,
+				A1B4ED89262FFC3300F20860 /* Info.plist */,
+			);
+			path = PasswordComplexityValidatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B4ED61262FFC3100F20860 /* PasswordComplexityValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B4ED8C262FFC3300F20860 /* Build configuration list for PBXNativeTarget "PasswordComplexityValidator" */;
+			buildPhases = (
+				A1B4ED5E262FFC3100F20860 /* Sources */,
+				A1B4ED5F262FFC3100F20860 /* Frameworks */,
+				A1B4ED60262FFC3100F20860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordComplexityValidator;
+			productName = PasswordComplexityValidator;
+			productReference = A1B4ED62262FFC3100F20860 /* PasswordComplexityValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B4ED77262FFC3300F20860 /* PasswordComplexityValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B4ED8F262FFC3300F20860 /* Build configuration list for PBXNativeTarget "PasswordComplexityValidatorTests" */;
+			buildPhases = (
+				A1B4ED74262FFC3300F20860 /* Sources */,
+				A1B4ED75262FFC3300F20860 /* Frameworks */,
+				A1B4ED76262FFC3300F20860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B4ED7A262FFC3300F20860 /* PBXTargetDependency */,
+			);
+			name = PasswordComplexityValidatorTests;
+			productName = PasswordComplexityValidatorTests;
+			productReference = A1B4ED78262FFC3300F20860 /* PasswordComplexityValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1B4ED82262FFC3300F20860 /* PasswordComplexityValidatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B4ED92262FFC3300F20860 /* Build configuration list for PBXNativeTarget "PasswordComplexityValidatorUITests" */;
+			buildPhases = (
+				A1B4ED7F262FFC3300F20860 /* Sources */,
+				A1B4ED80262FFC3300F20860 /* Frameworks */,
+				A1B4ED81262FFC3300F20860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B4ED85262FFC3300F20860 /* PBXTargetDependency */,
+			);
+			name = PasswordComplexityValidatorUITests;
+			productName = PasswordComplexityValidatorUITests;
+			productReference = A1B4ED83262FFC3300F20860 /* PasswordComplexityValidatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B4ED5A262FFC3100F20860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A1B4ED61262FFC3100F20860 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A1B4ED77262FFC3300F20860 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A1B4ED61262FFC3100F20860;
+					};
+					A1B4ED82262FFC3300F20860 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A1B4ED61262FFC3100F20860;
+					};
+				};
+			};
+			buildConfigurationList = A1B4ED5D262FFC3100F20860 /* Build configuration list for PBXProject "PasswordComplexityValidator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B4ED59262FFC3100F20860;
+			productRefGroup = A1B4ED63262FFC3100F20860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B4ED61262FFC3100F20860 /* PasswordComplexityValidator */,
+				A1B4ED77262FFC3300F20860 /* PasswordComplexityValidatorTests */,
+				A1B4ED82262FFC3300F20860 /* PasswordComplexityValidatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B4ED60262FFC3100F20860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B4ED72262FFC3300F20860 /* LaunchScreen.storyboard in Resources */,
+				A1B4ED6F262FFC3300F20860 /* Assets.xcassets in Resources */,
+				A1B4ED6D262FFC3100F20860 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B4ED76262FFC3300F20860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B4ED81262FFC3300F20860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B4ED5E262FFC3100F20860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B4ED6A262FFC3100F20860 /* ResetPasswordViewController.swift in Sources */,
+				A1B4ED9C263000A300F20860 /* NewPasswordValidator.swift in Sources */,
+				A1B4ED66262FFC3100F20860 /* AppDelegate.swift in Sources */,
+				A1B4ED68262FFC3100F20860 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B4ED74262FFC3300F20860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B4ED7D262FFC3300F20860 /* PasswordComplexityValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B4ED7F262FFC3300F20860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B4ED88262FFC3300F20860 /* PasswordComplexityValidatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1B4ED7A262FFC3300F20860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B4ED61262FFC3100F20860 /* PasswordComplexityValidator */;
+			targetProxy = A1B4ED79262FFC3300F20860 /* PBXContainerItemProxy */;
+		};
+		A1B4ED85262FFC3300F20860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B4ED61262FFC3100F20860 /* PasswordComplexityValidator */;
+			targetProxy = A1B4ED84262FFC3300F20860 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1B4ED6B262FFC3100F20860 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B4ED6C262FFC3100F20860 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1B4ED70262FFC3300F20860 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B4ED71262FFC3300F20860 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1B4ED8A262FFC3300F20860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B4ED8B262FFC3300F20860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B4ED8D262FFC3300F20860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordComplexityValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karhoo.PasswordComplexityValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B4ED8E262FFC3300F20860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordComplexityValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karhoo.PasswordComplexityValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1B4ED90262FFC3300F20860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordComplexityValidatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karhoo.PasswordComplexityValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordComplexityValidator.app/PasswordComplexityValidator";
+			};
+			name = Debug;
+		};
+		A1B4ED91262FFC3300F20860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordComplexityValidatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karhoo.PasswordComplexityValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordComplexityValidator.app/PasswordComplexityValidator";
+			};
+			name = Release;
+		};
+		A1B4ED93262FFC3300F20860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordComplexityValidatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karhoo.PasswordComplexityValidatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasswordComplexityValidator;
+			};
+			name = Debug;
+		};
+		A1B4ED94262FFC3300F20860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordComplexityValidatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karhoo.PasswordComplexityValidatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasswordComplexityValidator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B4ED5D262FFC3100F20860 /* Build configuration list for PBXProject "PasswordComplexityValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B4ED8A262FFC3300F20860 /* Debug */,
+				A1B4ED8B262FFC3300F20860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B4ED8C262FFC3300F20860 /* Build configuration list for PBXNativeTarget "PasswordComplexityValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B4ED8D262FFC3300F20860 /* Debug */,
+				A1B4ED8E262FFC3300F20860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B4ED8F262FFC3300F20860 /* Build configuration list for PBXNativeTarget "PasswordComplexityValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B4ED90262FFC3300F20860 /* Debug */,
+				A1B4ED91262FFC3300F20860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B4ED92262FFC3300F20860 /* Build configuration list for PBXNativeTarget "PasswordComplexityValidatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B4ED93262FFC3300F20860 /* Debug */,
+				A1B4ED94262FFC3300F20860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B4ED5A262FFC3100F20860 /* Project object */;
+}
